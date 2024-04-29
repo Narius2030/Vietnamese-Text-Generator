@@ -485,3 +485,31 @@
 [2024-04-29T15:42:18.532+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:42:18.531+0700] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-29T15:42:18.562+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:42:18.561+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
 [2024-04-29T15:42:18.662+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.325 seconds
+[2024-04-29T15:44:20.891+0700] {processor.py:161} INFO - Started process (PID=40898) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-29T15:44:20.894+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-29T15:44:20.900+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:44:20.898+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-29T15:44:20.937+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-29T15:44:20.982+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:44:20.980+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:44:20.997+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:44:20.997+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-29T15:44:21.078+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.253 seconds
+[2024-04-29T15:46:18.196+0700] {processor.py:161} INFO - Started process (PID=41445) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-29T15:46:18.198+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-29T15:46:18.201+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:46:18.200+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-29T15:46:18.236+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-29T15:46:18.298+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:46:18.297+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:46:18.319+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:46:18.318+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-29T15:46:18.401+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.238 seconds
+[2024-04-29T15:48:27.595+0700] {processor.py:161} INFO - Started process (PID=42039) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-29T15:48:27.597+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-29T15:48:27.602+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:48:27.600+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-29T15:48:27.626+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-29T15:48:27.668+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:48:27.667+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:48:27.686+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:48:27.684+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-29T15:48:27.763+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.188 seconds
+[2024-04-29T15:50:11.910+0700] {processor.py:161} INFO - Started process (PID=42527) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-29T15:50:11.912+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-29T15:50:11.915+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:50:11.914+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-29T15:50:11.946+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-29T15:50:12.103+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:50:12.049+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:50:12.129+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:50:12.128+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-29T15:50:12.186+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.302 seconds

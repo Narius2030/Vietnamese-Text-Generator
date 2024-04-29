@@ -464,3 +464,31 @@
 [2024-04-29T15:41:29.384+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:41:29.383+0700] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-29T15:41:29.411+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:41:29.410+0700] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
 [2024-04-29T15:41:29.493+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.232 seconds
+[2024-04-29T15:43:20.587+0700] {processor.py:161} INFO - Started process (PID=40622) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-04-29T15:43:20.592+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-29T15:43:20.597+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:43:20.595+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-04-29T15:43:20.649+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-04-29T15:43:20.714+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:43:20.713+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:43:20.748+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:43:20.747+0700] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-29T15:43:20.842+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.290 seconds
+[2024-04-29T15:45:09.594+0700] {processor.py:161} INFO - Started process (PID=41142) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-04-29T15:45:09.597+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-29T15:45:09.602+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:45:09.600+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-04-29T15:45:09.638+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-04-29T15:45:09.692+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:45:09.691+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:45:09.710+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:45:09.709+0700] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-29T15:45:09.775+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.209 seconds
+[2024-04-29T15:47:31.688+0700] {processor.py:161} INFO - Started process (PID=41777) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-04-29T15:47:31.691+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-29T15:47:31.695+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:47:31.693+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-04-29T15:47:31.744+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-04-29T15:47:31.846+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:47:31.844+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:47:31.879+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:47:31.877+0700] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-29T15:47:31.989+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.358 seconds
+[2024-04-29T15:49:19.452+0700] {processor.py:161} INFO - Started process (PID=42280) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-04-29T15:49:19.454+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-29T15:49:19.458+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:49:19.456+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-04-29T15:49:19.495+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-04-29T15:49:19.545+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:49:19.543+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:49:19.563+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:49:19.561+0700] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-29T15:49:19.661+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.233 seconds

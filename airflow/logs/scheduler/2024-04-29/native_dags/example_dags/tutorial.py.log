@@ -709,3 +709,38 @@
 [2024-04-29T15:42:51.948+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:42:51.939+0700] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-29T15:42:52.060+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:42:52.059+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
 [2024-04-29T15:42:52.205+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.474 seconds
+[2024-04-29T15:44:00.377+0700] {processor.py:161} INFO - Started process (PID=40804) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-04-29T15:44:00.379+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-29T15:44:00.384+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:44:00.382+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-04-29T15:44:00.424+0700] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-04-29T15:44:00.480+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:44:00.479+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:44:00.547+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:44:00.546+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T15:44:00.662+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.324 seconds
+[2024-04-29T15:44:54.739+0700] {processor.py:161} INFO - Started process (PID=41065) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-04-29T15:44:54.742+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-29T15:44:54.745+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:44:54.744+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-04-29T15:44:54.770+0700] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-04-29T15:44:54.803+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:44:54.801+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:44:54.885+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:44:54.884+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T15:44:54.948+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.239 seconds
+[2024-04-29T15:47:03.806+0700] {processor.py:161} INFO - Started process (PID=41653) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-04-29T15:47:03.809+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-29T15:47:03.821+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:47:03.812+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-04-29T15:47:03.888+0700] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-04-29T15:47:03.996+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:47:03.993+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:47:04.128+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:47:04.127+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T15:47:04.286+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.559 seconds
+[2024-04-29T15:48:09.564+0700] {processor.py:161} INFO - Started process (PID=41954) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-04-29T15:48:09.566+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-29T15:48:09.569+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:48:09.568+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-04-29T15:48:09.589+0700] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-04-29T15:48:09.621+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:48:09.620+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:48:09.652+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:48:09.652+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T15:48:09.716+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.173 seconds
+[2024-04-29T15:49:05.383+0700] {processor.py:161} INFO - Started process (PID=42216) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-04-29T15:49:05.386+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-29T15:49:05.389+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:49:05.388+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-04-29T15:49:05.412+0700] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-04-29T15:49:05.454+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:49:05.452+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:49:05.494+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:49:05.494+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T15:49:05.573+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.212 seconds

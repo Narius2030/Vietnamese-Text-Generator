@@ -1274,3 +1274,95 @@ Traceback (most recent call last):
 ImportError: C extension: pandas.util not built. If you want to import pandas from the source directory, you may need to run 'python setup.py build_ext' to build the C extensions first.
 [2024-04-29T15:42:32.622+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
 [2024-04-29T15:42:32.715+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 4.382 seconds
+[2024-04-29T15:43:33.356+0700] {processor.py:161} INFO - Started process (PID=40681) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:43:33.359+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:43:33.363+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:43:33.361+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:43:40.362+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:43:40.349+0700] {dagbag.py:350} ERROR - Failed to import: /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py", line 9, in <module>
+    from clean_data import transform, dump
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/plugins/clean_data.py", line 5, in <module>
+    from pyvi import ViTokenizer
+ModuleNotFoundError: No module named 'pyvi'
+[2024-04-29T15:43:40.366+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:43:40.416+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 7.091 seconds
+[2024-04-29T15:44:34.764+0700] {processor.py:161} INFO - Started process (PID=40965) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:44:34.766+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:44:34.770+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:44:34.769+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:44:39.151+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:44:39.141+0700] {dagbag.py:350} ERROR - Failed to import: /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py", line 9, in <module>
+    from clean_data import transform, dump
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/plugins/clean_data.py", line 5, in <module>
+    from pyvi import ViTokenizer
+ModuleNotFoundError: No module named 'pyvi'
+[2024-04-29T15:44:39.154+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:44:39.209+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 4.469 seconds
+[2024-04-29T15:45:22.073+0700] {processor.py:161} INFO - Started process (PID=41199) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:45:22.076+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:45:22.080+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:45:22.078+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:45:32.527+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:45:32.509+0700] {dagbag.py:350} ERROR - Failed to import: /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py", line 9, in <module>
+    from clean_data import transform, dump
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/plugins/clean_data.py", line 5, in <module>
+    from pyvi import ViTokenizer
+ModuleNotFoundError: No module named 'pyvi'
+[2024-04-29T15:45:32.533+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:45:32.590+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.550 seconds
+[2024-04-29T15:46:32.668+0700] {processor.py:161} INFO - Started process (PID=41512) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:46:32.672+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:46:32.680+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:46:32.675+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:46:41.062+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:46:41.047+0700] {dagbag.py:350} ERROR - Failed to import: /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py", line 9, in <module>
+    from clean_data import transform, dump
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/plugins/clean_data.py", line 5, in <module>
+    from pyvi import ViTokenizer
+ModuleNotFoundError: No module named 'pyvi'
+[2024-04-29T15:46:41.067+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:46:41.117+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 8.489 seconds
+[2024-04-29T15:47:44.056+0700] {processor.py:161} INFO - Started process (PID=41834) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:47:44.059+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:47:44.062+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:47:44.061+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:47:52.924+0700] {processor.py:840} INFO - DAG(s) 'Scrape_VnExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:47:54.161+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:47:54.160+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:47:54.185+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:47:54.184+0700] {dag.py:3954} INFO - Setting next_dagrun for Scrape_VnExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T15:47:54.261+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.233 seconds
+[2024-04-29T15:48:40.344+0700] {processor.py:161} INFO - Started process (PID=42098) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:48:40.345+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:48:40.348+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:48:40.346+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:48:48.571+0700] {processor.py:840} INFO - DAG(s) 'Scrape_VnExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:48:48.595+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:48:48.594+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:48:48.618+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:48:48.617+0700] {dag.py:3954} INFO - Setting next_dagrun for Scrape_VnExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T15:48:48.676+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 8.348 seconds
+[2024-04-29T15:49:32.143+0700] {processor.py:161} INFO - Started process (PID=42339) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:49:32.145+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:49:32.147+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:49:32.146+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:49:41.659+0700] {processor.py:840} INFO - DAG(s) 'Scrape_VnExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:49:41.686+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:49:41.685+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:49:41.715+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:49:41.713+0700] {dag.py:3954} INFO - Setting next_dagrun for Scrape_VnExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T15:49:41.781+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.658 seconds
+[2024-04-29T15:50:24.708+0700] {processor.py:161} INFO - Started process (PID=42587) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:50:24.710+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:50:24.713+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:50:24.712+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:50:33.605+0700] {processor.py:840} INFO - DAG(s) 'Scrape_VnExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:50:33.632+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:50:33.631+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:50:33.661+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:50:33.660+0700] {dag.py:3954} INFO - Setting next_dagrun for Scrape_VnExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T15:50:33.720+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.034 seconds

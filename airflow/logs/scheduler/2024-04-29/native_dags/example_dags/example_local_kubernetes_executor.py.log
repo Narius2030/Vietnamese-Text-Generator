@@ -757,3 +757,47 @@ ModuleNotFoundError: No module named 'kubernetes'
 [2024-04-29T15:43:00.985+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:43:00.983+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
 [2024-04-29T15:43:00.987+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
 [2024-04-29T15:43:01.041+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.188 seconds
+[2024-04-29T15:44:32.674+0700] {processor.py:161} INFO - Started process (PID=40955) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-29T15:44:32.677+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-29T15:44:32.681+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:44:32.679+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-29T15:44:32.725+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:44:32.718+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-29T15:44:32.728+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:44:32.726+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-29T15:44:32.729+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-29T15:44:32.762+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.118 seconds
+[2024-04-29T15:46:28.794+0700] {processor.py:161} INFO - Started process (PID=41495) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-29T15:46:28.797+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-29T15:46:28.809+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:46:28.803+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-29T15:46:28.882+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:46:28.873+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-29T15:46:28.885+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:46:28.883+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-29T15:46:28.887+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-29T15:46:28.942+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.213 seconds
+[2024-04-29T15:48:38.008+0700] {processor.py:161} INFO - Started process (PID=42087) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-29T15:48:38.010+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-29T15:48:38.014+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:48:38.012+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-29T15:48:38.048+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:48:38.043+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-29T15:48:38.050+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:48:38.049+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-29T15:48:38.051+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-29T15:48:38.078+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.092 seconds
+[2024-04-29T15:50:22.647+0700] {processor.py:161} INFO - Started process (PID=42576) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-29T15:50:22.650+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-29T15:50:22.654+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:50:22.652+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-29T15:50:22.681+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:50:22.677+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-29T15:50:22.682+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:50:22.682+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-29T15:50:22.683+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-29T15:50:22.709+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.082 seconds
