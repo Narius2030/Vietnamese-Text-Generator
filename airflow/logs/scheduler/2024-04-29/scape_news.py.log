@@ -1366,3 +1366,605 @@ ModuleNotFoundError: No module named 'pyvi'
 [2024-04-29T15:50:33.632+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:50:33.631+0700] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-29T15:50:33.661+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:50:33.660+0700] {dag.py:3954} INFO - Setting next_dagrun for Scrape_VnExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
 [2024-04-29T15:50:33.720+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.034 seconds
+[2024-04-29T15:51:16.447+0700] {processor.py:161} INFO - Started process (PID=42830) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:51:16.450+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:51:16.452+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:51:16.451+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:51:29.420+0700] {processor.py:840} INFO - DAG(s) 'Scrape_VnExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:51:29.445+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:51:29.444+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:51:29.469+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:51:29.468+0700] {dag.py:3954} INFO - Setting next_dagrun for Scrape_VnExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T15:51:29.528+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 13.099 seconds
+[2024-04-29T15:52:11.582+0700] {processor.py:161} INFO - Started process (PID=43092) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:52:11.585+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:52:11.588+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:52:11.587+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:52:25.298+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:52:27.503+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:52:27.500+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:ETL-VNExpress
+[2024-04-29T15:52:27.623+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:52:27.621+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:ETL-VNExpress
+[2024-04-29T15:52:27.778+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:52:27.776+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:ETL-VNExpress
+[2024-04-29T15:52:27.782+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:52:27.780+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:52:27.828+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:52:27.823+0700] {dag.py:3118} INFO - Creating ORM DAG for ETL-VNExpress
+[2024-04-29T15:52:27.865+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:52:27.864+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T15:52:27.981+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 16.421 seconds
+[2024-04-29T15:53:14.104+0700] {processor.py:161} INFO - Started process (PID=43385) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:53:14.107+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:53:14.110+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:53:14.109+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:53:22.668+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:53:22.693+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:53:22.692+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:53:22.717+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:53:22.716+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T15:53:22.894+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 8.812 seconds
+[2024-04-29T15:54:09.185+0700] {processor.py:161} INFO - Started process (PID=43646) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:54:09.188+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:54:09.198+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:54:09.192+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:54:23.358+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:54:23.349+0700] {dagbag.py:350} ERROR - Failed to import: /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py", line 48, in <module>
+    extract_data >> transform_data >> dump_data >> print_date_task
+NameError: name 'extract_data' is not defined
+[2024-04-29T15:54:23.362+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:54:23.399+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 14.242 seconds
+[2024-04-29T15:55:10.791+0700] {processor.py:161} INFO - Started process (PID=43934) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:55:10.794+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:55:10.796+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:55:10.795+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:55:23.811+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:55:23.784+0700] {dagbag.py:350} ERROR - Failed to import: /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py", line 48, in <module>
+    # extract_data >> transform_data >> dump_data >> print_date_task
+NameError: name 'extract_data' is not defined
+[2024-04-29T15:55:23.814+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:55:23.870+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 13.097 seconds
+[2024-04-29T15:56:11.105+0700] {processor.py:161} INFO - Started process (PID=44223) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:56:11.107+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:56:11.111+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:56:11.110+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:56:19.844+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:56:20.908+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:56:20.907+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:56:20.929+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:56:20.928+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T15:56:21.006+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.919 seconds
+[2024-04-29T15:57:47.321+0700] {processor.py:161} INFO - Started process (PID=44656) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:57:47.323+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:57:47.326+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:57:47.324+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:57:54.753+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:57:54.780+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:57:54.778+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:57:54.808+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:57:54.807+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T15:57:54.883+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 7.584 seconds
+[2024-04-29T15:58:51.328+0700] {processor.py:161} INFO - Started process (PID=44962) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:58:51.331+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:58:51.334+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:58:51.333+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:58:59.865+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:58:59.893+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:58:59.892+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:58:59.921+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:58:59.919+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T15:58:59.988+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 8.682 seconds
+[2024-04-29T15:59:41.464+0700] {processor.py:161} INFO - Started process (PID=45200) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:59:41.465+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T15:59:41.467+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:59:41.466+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:59:50.169+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T15:59:50.201+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:59:50.199+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T15:59:50.233+0700] {logging_mixin.py:188} INFO - [2024-04-29T15:59:50.231+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T15:59:50.314+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 8.868 seconds
+[2024-04-29T16:00:31.454+0700] {processor.py:161} INFO - Started process (PID=45436) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:00:31.456+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:00:31.460+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:00:31.458+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:00:52.769+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:00:52.798+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:00:52.797+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:00:52.836+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:00:52.835+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:00:52.910+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 21.482 seconds
+[2024-04-29T16:01:35.863+0700] {processor.py:161} INFO - Started process (PID=45729) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:01:35.865+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:01:35.867+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:01:35.866+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:01:52.321+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:01:52.345+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:01:52.344+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:01:52.373+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:01:52.372+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:01:52.437+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 16.592 seconds
+[2024-04-29T16:03:46.114+0700] {processor.py:161} INFO - Started process (PID=46299) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:03:46.116+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:03:46.120+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:03:46.118+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:03:55.504+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:03:55.535+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:03:55.533+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:03:55.584+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:03:55.583+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:03:55.652+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.664 seconds
+[2024-04-29T16:04:38.340+0700] {processor.py:161} INFO - Started process (PID=46544) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:04:38.343+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:04:38.346+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:04:38.345+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:04:47.585+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:04:47.609+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:04:47.607+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:04:47.640+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:04:47.639+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:04:47.711+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.392 seconds
+[2024-04-29T16:05:30.229+0700] {processor.py:161} INFO - Started process (PID=46791) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:05:30.231+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:05:30.234+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:05:30.233+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:05:39.676+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:05:39.702+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:05:39.700+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:05:39.730+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:05:39.729+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:05:39.795+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.587 seconds
+[2024-04-29T16:06:28.564+0700] {processor.py:161} INFO - Started process (PID=47058) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:06:28.568+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:06:28.571+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:06:28.570+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:06:49.150+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:06:49.186+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:06:49.184+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:06:49.216+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:06:49.215+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:06:49.396+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 20.890 seconds
+[2024-04-29T16:07:41.171+0700] {processor.py:161} INFO - Started process (PID=47387) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:07:41.173+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:07:41.176+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:07:41.175+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:07:51.818+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:07:51.848+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:07:51.846+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:07:51.875+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:07:51.874+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:07:51.947+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.801 seconds
+[2024-04-29T16:08:36.572+0700] {processor.py:161} INFO - Started process (PID=47644) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:08:36.574+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:08:36.577+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:08:36.576+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:08:45.646+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:08:45.674+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:08:45.673+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:08:45.700+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:08:45.698+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:08:45.768+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.218 seconds
+[2024-04-29T16:09:29.844+0700] {processor.py:161} INFO - Started process (PID=47896) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:09:29.847+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:09:29.850+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:09:29.849+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:09:39.995+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:09:40.017+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:09:40.016+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:09:40.043+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:09:40.042+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:09:40.101+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.278 seconds
+[2024-04-29T16:10:23.492+0700] {processor.py:161} INFO - Started process (PID=48150) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:10:23.494+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:10:23.497+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:10:23.496+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:10:33.936+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:10:33.959+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:10:33.958+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:10:33.995+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:10:33.994+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:10:34.071+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.600 seconds
+[2024-04-29T16:11:19.975+0700] {processor.py:161} INFO - Started process (PID=48415) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:11:19.977+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:11:19.980+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:11:19.979+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:11:30.799+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:11:30.821+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:11:30.820+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:11:30.845+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:11:30.845+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:11:30.903+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.948 seconds
+[2024-04-29T16:12:16.337+0700] {processor.py:161} INFO - Started process (PID=48680) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:12:16.342+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:12:16.348+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:12:16.346+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:12:30.968+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:12:30.994+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:12:30.992+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:12:31.020+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:12:31.019+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:12:31.085+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 14.792 seconds
+[2024-04-29T16:14:20.681+0700] {processor.py:161} INFO - Started process (PID=49235) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:14:20.683+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:14:20.686+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:14:20.685+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:14:29.560+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:14:29.584+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:14:29.583+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:14:29.609+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:14:29.608+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:14:29.665+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.004 seconds
+[2024-04-29T16:15:14.275+0700] {processor.py:161} INFO - Started process (PID=49488) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:15:14.278+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:15:14.281+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:15:14.280+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:15:23.717+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:15:23.744+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:15:23.743+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:15:23.771+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:15:23.770+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:15:23.848+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.593 seconds
+[2024-04-29T16:16:07.863+0700] {processor.py:161} INFO - Started process (PID=49740) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:16:07.865+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:16:07.868+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:16:07.867+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:16:17.512+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:16:17.539+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:16:17.537+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:16:17.566+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:16:17.565+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:16:17.629+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.788 seconds
+[2024-04-29T16:16:58.741+0700] {processor.py:161} INFO - Started process (PID=49981) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:16:58.743+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:16:58.747+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:16:58.745+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:17:08.515+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:17:08.538+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:17:08.536+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:17:08.565+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:17:08.564+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:17:08.625+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.906 seconds
+[2024-04-29T16:17:51.626+0700] {processor.py:161} INFO - Started process (PID=50232) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:17:51.628+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:17:51.631+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:17:51.629+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:18:01.947+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:18:01.972+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:18:01.971+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:18:01.996+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:18:01.995+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:18:02.057+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.454 seconds
+[2024-04-29T16:18:44.969+0700] {processor.py:161} INFO - Started process (PID=50478) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:18:44.972+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:18:44.976+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:18:44.974+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:18:45.299+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:18:45.288+0700] {dagbag.py:350} ERROR - Failed to import: /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py", line 9, in <module>
+    from clean_data import transform, dump
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/plugins/clean_data.py", line 26
+    def transform():
+    ^^^
+IndentationError: expected an indented block after function definition on line 23
+[2024-04-29T16:18:45.303+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:18:45.351+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 0.532 seconds
+[2024-04-29T16:19:29.356+0700] {processor.py:161} INFO - Started process (PID=50686) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:19:29.358+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:19:29.362+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:19:29.361+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:19:39.558+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:19:39.546+0700] {dagbag.py:350} ERROR - Failed to import: /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py", line 9, in <module>
+    from clean_data import transform, dump
+ImportError: cannot import name 'transform' from 'clean_data' (/mnt/d/Programming/Vietnamese-Text-Generator/airflow/plugins/clean_data.py)
+[2024-04-29T16:19:39.561+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:19:39.612+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.277 seconds
+[2024-04-29T16:20:25.749+0700] {processor.py:161} INFO - Started process (PID=50947) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:20:25.751+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:20:25.753+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:20:25.752+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:20:37.502+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:20:37.492+0700] {dagbag.py:350} ERROR - Failed to import: /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py", line 9, in <module>
+    from clean_data import transform, dump
+ImportError: cannot import name 'transform' from 'clean_data' (/mnt/d/Programming/Vietnamese-Text-Generator/airflow/plugins/clean_data.py)
+[2024-04-29T16:20:37.504+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:20:37.540+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 11.818 seconds
+[2024-04-29T16:21:23.193+0700] {processor.py:161} INFO - Started process (PID=51213) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:21:23.194+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:21:23.196+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:21:23.195+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:21:32.830+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:21:32.821+0700] {dagbag.py:350} ERROR - Failed to import: /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py", line 9, in <module>
+    from clean_data import transform, dump
+ImportError: cannot import name 'transform' from 'clean_data' (/mnt/d/Programming/Vietnamese-Text-Generator/airflow/plugins/clean_data.py)
+[2024-04-29T16:21:32.832+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:21:32.864+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.688 seconds
+[2024-04-29T16:22:18.435+0700] {processor.py:161} INFO - Started process (PID=51469) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:22:18.438+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:22:18.441+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:22:18.440+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:22:29.984+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:22:29.975+0700] {dagbag.py:350} ERROR - Failed to import: /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py", line 9, in <module>
+    from clean_data import transform, dump
+ImportError: cannot import name 'transform' from 'clean_data' (/mnt/d/Programming/Vietnamese-Text-Generator/airflow/plugins/clean_data.py)
+[2024-04-29T16:22:29.986+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:22:30.024+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 11.610 seconds
+[2024-04-29T16:23:15.638+0700] {processor.py:161} INFO - Started process (PID=51737) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:23:15.640+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:23:15.642+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:23:15.641+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:23:26.360+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:23:26.335+0700] {dagbag.py:350} ERROR - Failed to import: /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py", line 9, in <module>
+    from clean_data.Transform import transform, dump
+ImportError: cannot import name 'transform' from 'clean_data' (/mnt/d/Programming/Vietnamese-Text-Generator/airflow/plugins/clean_data.py)
+[2024-04-29T16:23:26.362+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:23:26.398+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.776 seconds
+[2024-04-29T16:24:07.952+0700] {processor.py:161} INFO - Started process (PID=51981) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:24:07.953+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:24:07.956+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:24:07.955+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:24:18.530+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:24:18.508+0700] {dagbag.py:350} ERROR - Failed to import: /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py", line 30, in <module>
+    python_callable=transform,
+NameError: name 'transform' is not defined
+[2024-04-29T16:24:18.532+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:24:18.565+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.630 seconds
+[2024-04-29T16:25:02.922+0700] {processor.py:161} INFO - Started process (PID=52240) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:25:02.925+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:25:02.928+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:25:02.927+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:25:13.281+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:25:14.626+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:25:14.625+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:25:14.654+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:25:14.653+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:25:14.748+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 11.850 seconds
+[2024-04-29T16:26:35.939+0700] {processor.py:161} INFO - Started process (PID=52661) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:26:35.942+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:26:35.946+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:26:35.944+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:26:45.001+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:26:45.023+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:26:45.022+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:26:45.049+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:26:45.048+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:26:45.118+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.200 seconds
+[2024-04-29T16:27:39.050+0700] {processor.py:161} INFO - Started process (PID=52956) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:27:39.052+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:27:39.054+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:27:39.053+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:27:57.156+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:27:57.216+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:27:57.214+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:27:57.282+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:27:57.273+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:27:57.388+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 18.354 seconds
+[2024-04-29T16:29:42.963+0700] {processor.py:161} INFO - Started process (PID=53505) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:29:42.965+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:29:42.968+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:29:42.967+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:29:51.908+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:29:51.929+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:29:51.928+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:29:51.954+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:29:51.953+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:29:52.011+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.066 seconds
+[2024-04-29T16:30:34.682+0700] {processor.py:161} INFO - Started process (PID=53748) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:30:34.684+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:30:34.688+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:30:34.686+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:30:43.960+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:30:43.981+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:30:43.980+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:30:44.005+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:30:44.004+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:30:44.067+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.404 seconds
+[2024-04-29T16:31:27.950+0700] {processor.py:161} INFO - Started process (PID=53997) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:31:27.952+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:31:27.954+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:31:27.953+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:31:37.740+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:31:37.767+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:31:37.766+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:31:37.794+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:31:37.792+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:31:37.869+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.937 seconds
+[2024-04-29T16:32:18.679+0700] {processor.py:161} INFO - Started process (PID=54233) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:32:18.682+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:32:18.685+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:32:18.683+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:32:27.867+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:32:27.889+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:32:27.888+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:32:27.916+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:32:27.915+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:32:27.981+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.320 seconds
+[2024-04-29T16:33:11.438+0700] {processor.py:161} INFO - Started process (PID=54477) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:33:11.441+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:33:11.443+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:33:11.442+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:33:20.238+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:33:20.264+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:33:20.263+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:33:20.287+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:33:20.286+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:33:20.344+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 8.939 seconds
+[2024-04-29T16:34:02.699+0700] {processor.py:161} INFO - Started process (PID=54719) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:34:02.701+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:34:02.704+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:34:02.703+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:34:11.793+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:34:11.819+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:34:11.817+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:34:11.845+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:34:11.844+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:34:11.902+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.225 seconds
+[2024-04-29T16:34:55.155+0700] {processor.py:161} INFO - Started process (PID=54962) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:34:55.158+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:34:55.161+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:34:55.160+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:35:03.957+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:35:03.977+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:35:03.976+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:35:04.002+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:35:04.001+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:35:04.055+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 8.920 seconds
+[2024-04-29T16:35:48.740+0700] {processor.py:161} INFO - Started process (PID=55216) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:35:48.742+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:35:48.744+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:35:48.743+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:36:00.152+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:36:00.188+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:36:00.187+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:36:00.221+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:36:00.219+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:36:00.293+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 11.569 seconds
+[2024-04-29T16:36:43.251+0700] {processor.py:161} INFO - Started process (PID=55469) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:36:43.253+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:36:43.256+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:36:43.255+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:36:52.383+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:36:52.405+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:36:52.404+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:36:52.432+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:36:52.431+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:36:52.498+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.268 seconds
+[2024-04-29T16:37:35.113+0700] {processor.py:161} INFO - Started process (PID=55712) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:37:35.115+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:37:35.119+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:37:35.117+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:37:43.575+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:37:43.598+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:37:43.597+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:37:43.624+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:37:43.623+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:37:43.678+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 8.586 seconds
+[2024-04-29T16:38:24.765+0700] {processor.py:161} INFO - Started process (PID=55944) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:38:24.767+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:38:24.771+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:38:24.770+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:38:33.731+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:38:33.754+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:38:33.753+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:38:33.777+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:38:33.777+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:38:33.838+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.098 seconds
+[2024-04-29T16:39:16.501+0700] {processor.py:161} INFO - Started process (PID=56188) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:39:16.504+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:39:16.507+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:39:16.506+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:39:24.658+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:39:24.682+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:39:24.681+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:39:24.705+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:39:24.704+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:39:24.765+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 8.283 seconds
+[2024-04-29T16:40:07.058+0700] {processor.py:161} INFO - Started process (PID=56426) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:40:07.060+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:40:07.063+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:40:07.062+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:40:17.717+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:40:17.742+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:40:17.740+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:40:17.771+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:40:17.771+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:40:17.849+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.808 seconds
+[2024-04-29T16:41:01.531+0700] {processor.py:161} INFO - Started process (PID=56679) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:41:01.533+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:41:01.536+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:41:01.534+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:41:11.957+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:41:11.980+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:41:11.979+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:41:12.008+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:41:12.008+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:41:12.062+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.555 seconds
+[2024-04-29T16:41:55.809+0700] {processor.py:161} INFO - Started process (PID=56929) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:41:55.812+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:41:55.815+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:41:55.814+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:42:07.288+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:42:07.278+0700] {dagbag.py:350} ERROR - Failed to import: /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py", line 9, in <module>
+    from clean_data import Transform
+ImportError: cannot import name 'Transform' from 'clean_data' (/mnt/d/Programming/Vietnamese-Text-Generator/airflow/plugins/clean_data.py)
+[2024-04-29T16:42:07.290+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:42:07.327+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 11.540 seconds
+[2024-04-29T16:42:52.700+0700] {processor.py:161} INFO - Started process (PID=57191) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:42:52.702+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:42:52.706+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:42:52.704+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:43:03.485+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:43:03.464+0700] {dagbag.py:350} ERROR - Failed to import: /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+Traceback (most recent call last):
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py", line 9, in <module>
+    from clean_data import Transform
+ImportError: cannot import name 'Transform' from 'clean_data' (/mnt/d/Programming/Vietnamese-Text-Generator/airflow/plugins/clean_data.py)
+[2024-04-29T16:43:03.487+0700] {processor.py:842} WARNING - No viable dags retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:43:03.519+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.838 seconds
+[2024-04-29T16:43:48.904+0700] {processor.py:161} INFO - Started process (PID=57450) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:43:48.906+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:43:48.909+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:43:48.908+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:43:59.149+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:44:00.248+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:44:00.247+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:44:00.271+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:44:00.270+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:44:00.393+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 11.507 seconds
+[2024-04-29T16:44:45.400+0700] {processor.py:161} INFO - Started process (PID=57723) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:44:45.403+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:44:45.407+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:44:45.405+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:44:56.079+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:44:56.109+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:44:56.108+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:44:56.153+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:44:56.152+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:44:56.219+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.845 seconds
+[2024-04-29T16:45:46.994+0700] {processor.py:161} INFO - Started process (PID=58012) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:45:46.997+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:45:47.004+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:45:47.001+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:46:00.288+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:46:01.183+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:46:01.182+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:46:01.208+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:46:01.207+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:46:01.274+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 14.335 seconds
+[2024-04-29T16:46:47.393+0700] {processor.py:161} INFO - Started process (PID=58292) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:46:47.394+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:46:47.396+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:46:47.395+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:47:00.812+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:47:00.840+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:47:00.838+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:47:00.876+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:47:00.873+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:47:00.958+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 13.585 seconds
+[2024-04-29T16:48:55.071+0700] {processor.py:161} INFO - Started process (PID=58862) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:48:55.073+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:48:55.077+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:48:55.076+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:49:04.594+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:49:04.621+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:49:04.619+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:49:04.647+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:49:04.646+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:49:04.716+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.664 seconds
+[2024-04-29T16:49:47.288+0700] {processor.py:161} INFO - Started process (PID=59106) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:49:47.290+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:49:47.294+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:49:47.292+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:49:56.856+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:49:56.882+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:49:56.881+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:49:56.909+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:49:56.907+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:49:56.979+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.710 seconds
+[2024-04-29T16:50:41.050+0700] {processor.py:161} INFO - Started process (PID=59357) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:50:41.052+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:50:41.056+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:50:41.055+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:50:49.680+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:50:49.703+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:50:49.702+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:50:49.728+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:50:49.727+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:50:49.789+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 8.763 seconds
+[2024-04-29T16:51:38.741+0700] {processor.py:161} INFO - Started process (PID=59623) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:51:38.743+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:51:38.746+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:51:38.745+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:51:48.368+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:51:48.392+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:51:48.391+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:51:48.422+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:51:48.421+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:51:48.489+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.770 seconds
+[2024-04-29T16:52:33.142+0700] {processor.py:161} INFO - Started process (PID=59877) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:52:33.144+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:52:33.147+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:52:33.146+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:52:41.553+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:52:41.578+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:52:41.577+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:52:41.602+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:52:41.601+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:52:41.660+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 8.539 seconds
+[2024-04-29T16:53:28.016+0700] {processor.py:161} INFO - Started process (PID=60133) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:53:28.018+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:53:28.021+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:53:28.020+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:53:36.500+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:53:36.521+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:53:36.520+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:53:36.544+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:53:36.543+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:53:36.605+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 8.607 seconds
+[2024-04-29T16:54:19.456+0700] {processor.py:161} INFO - Started process (PID=60375) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:54:19.459+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:54:19.462+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:54:19.461+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:54:28.927+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:54:28.947+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:54:28.946+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:54:28.970+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:54:28.970+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:54:29.026+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.589 seconds
+[2024-04-29T16:55:51.354+0700] {processor.py:161} INFO - Started process (PID=60792) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:55:51.357+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:55:51.360+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:55:51.358+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:56:01.517+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:56:01.536+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:56:01.535+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:56:01.557+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:56:01.556+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:56:01.624+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.294 seconds
+[2024-04-29T16:57:51.859+0700] {processor.py:161} INFO - Started process (PID=61338) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:57:51.861+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:57:51.864+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:57:51.863+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:58:00.886+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:58:00.907+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:58:00.906+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:58:00.929+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:58:00.928+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:58:00.980+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.143 seconds
+[2024-04-29T16:58:44.026+0700] {processor.py:161} INFO - Started process (PID=61581) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:58:44.028+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:58:44.032+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:58:44.031+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:58:53.285+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:58:53.309+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:58:53.308+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:58:53.333+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:58:53.332+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:58:53.412+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.408 seconds
+[2024-04-29T16:59:39.894+0700] {processor.py:161} INFO - Started process (PID=61843) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:59:39.896+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T16:59:39.900+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:59:39.898+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:59:49.524+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T16:59:49.546+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:59:49.545+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T16:59:49.573+0700] {logging_mixin.py:188} INFO - [2024-04-29T16:59:49.572+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T16:59:49.633+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.759 seconds
+[2024-04-29T17:00:37.904+0700] {processor.py:161} INFO - Started process (PID=62111) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:00:37.907+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T17:00:37.910+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:00:37.909+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:00:47.413+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:00:47.437+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:00:47.436+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T17:00:47.463+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:00:47.462+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T17:00:47.521+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.642 seconds
+[2024-04-29T17:01:33.651+0700] {processor.py:161} INFO - Started process (PID=62369) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:01:33.654+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T17:01:33.657+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:01:33.655+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:01:43.118+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:01:43.158+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:01:43.156+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T17:01:43.190+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:01:43.189+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T17:01:43.274+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.643 seconds
+[2024-04-29T17:02:28.925+0700] {processor.py:161} INFO - Started process (PID=62627) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:02:28.927+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T17:02:28.929+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:02:28.928+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:02:43.490+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:02:43.511+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:02:43.510+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T17:02:43.534+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:02:43.533+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T17:02:43.586+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 14.679 seconds
+[2024-04-29T17:04:45.317+0700] {processor.py:161} INFO - Started process (PID=63228) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:04:45.319+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T17:04:45.321+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:04:45.320+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:04:54.406+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:04:54.430+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:04:54.429+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T17:04:54.454+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:04:54.453+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T17:04:54.509+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 9.208 seconds
+[2024-04-29T17:05:44.306+0700] {processor.py:161} INFO - Started process (PID=63512) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:05:44.308+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T17:05:44.310+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:05:44.309+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:05:53.870+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:05:54.771+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:05:54.770+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T17:05:54.795+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:05:54.793+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T17:05:54.876+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.590 seconds
+[2024-04-29T17:06:43.665+0700] {processor.py:161} INFO - Started process (PID=63789) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:06:43.666+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T17:06:43.668+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:06:43.667+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:06:52.356+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:06:52.376+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:06:52.375+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T17:06:52.401+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:06:52.400+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T17:06:52.455+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 8.809 seconds
+[2024-04-29T17:07:38.181+0700] {processor.py:161} INFO - Started process (PID=64042) to work on /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:07:38.183+0700] {processor.py:830} INFO - Processing file /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py for tasks to queue
+[2024-04-29T17:07:38.187+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:07:38.186+0700] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:07:48.429+0700] {processor.py:840} INFO - DAG(s) 'ETL-VNExpress' retrieved from /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py
+[2024-04-29T17:07:48.457+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:07:48.456+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T17:07:48.483+0700] {logging_mixin.py:188} INFO - [2024-04-29T17:07:48.482+0700] {dag.py:3954} INFO - Setting next_dagrun for ETL-VNExpress to 2024-04-28 17:55:00+00:00, run_after=2024-04-29 17:55:00+00:00
+[2024-04-29T17:07:48.555+0700] {processor.py:183} INFO - Processing /mnt/d/Programming/Vietnamese-Text-Generator/airflow/dags/scape_news.py took 10.394 seconds

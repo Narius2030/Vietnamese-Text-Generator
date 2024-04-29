@@ -17,7 +17,7 @@ def get_info(topic, processed_news):
     temp = processed_news[processed_news.topic == topic]
     return temp['article_id'].to_list(), temp['tag'].to_list()
 
-def transform():
+def transform_load():
     """Transform the raw data to usable text
     """
     ## Import data from raw folder to dataframe
@@ -38,7 +38,7 @@ def transform():
 
     ## Select necessary columns
     processed_news = news[['article_id','content','topic','sub-topic','title','description']]
-    print(processed_news.shape)
+    # print(processed_news.shape)
     processed_news.head()
 
     raw_news = processed_news.copy()
@@ -57,12 +57,10 @@ def transform():
     processed_news['tag'] = processed_news['tag'].apply(lambda x: ViTokenizer.tokenize(x))
     processed_news['tag'] = processed_news['tag'].apply(lambda x: cleandt.remove_stopword(x, f'{ROOT_PATH}/data/vietnamese-stopwords.txt'))
     
-    return raw_news, processed_news
-
-def dump(raw_news, processed_news):
     """Dump each tag to a text file
     """
     raw_news.to_csv(f'{ROOT_PATH}/data/test/csv/vnexpress.csv')
+    processed_news.to_csv(f'{ROOT_PATH}/data/test/csv/vnexpress_processed.csv')
     
     PROCESSED_FOLDER = f'{ROOT_PATH}/data/test/processed'
     for topic in tqdm(os.listdir(PROCESSED_FOLDER)):
