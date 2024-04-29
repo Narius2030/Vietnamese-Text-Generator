@@ -1,2 +1,4 @@
 /.venv/**
 /temp/**
+/airflow_env/**
+/data/test/**
