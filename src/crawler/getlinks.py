@@ -137,8 +137,8 @@ def get_links_from_subtopics(topics_links:dict, pages=1):
         urls = []
         for link in links:
             subtopic = link.split('/')[4]
-            pages = get_page_links_from_subtopic(link, 2)
-            for page in pages:
+            page_links = get_page_links_from_subtopic(link, pages)
+            for page in page_links:
                 url = get_articles_links_from_subtopic(page, subtopic)
                 urls += url
         topic_links[f'{topic}'] = urls
