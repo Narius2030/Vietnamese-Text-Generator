@@ -10,7 +10,7 @@ def scrape_news():
     topics_links = get_links_from_subtopics(topics_links)
         
     # set output path
-    OUTPUT = '/mnt/d/Programming/Vietnamese-Text-Generator/data/test'
+    OUTPUT = '/mnt/d/Programming/Vietnamese-Text-Generator/data/test/raw'
 
     print('\nCrawling...')
     for topic, links in topics_links.items():
