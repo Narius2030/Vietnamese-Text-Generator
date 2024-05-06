@@ -18,8 +18,12 @@ def clean_document(doc):
 def preprocess_input(doc, tokenizer):
     tokens = clean_document(doc)
     tokens = tokenizer.texts_to_sequences(tokens)
-    tokens = tf.keras.preprocessing.sequence.pad_sequences([tokens], maxlen=50, truncating='pre')
 
+    for digit in tokens:
+        if not digit:
+            raise Exception("Từ vựng không tồn tại trong kho")
+
+    tokens = tf.keras.preprocessing.sequence.pad_sequences([tokens], maxlen=50, truncating='pre')
     return np.reshape(tokens, (1,50))
 
 def top_n_words(tokenizer, model, text_input, top_n=3):
@@ -39,7 +43,7 @@ def top_n_words(tokenizer, model, text_input, top_n=3):
     return top_words
 
 def generate_sentences(tokenizer, model, text_input, n_words):
-    tokens = preprocess_input(text_input)
+    tokens = preprocess_input(text_input, tokenizer)
     generated_sentences = []
     for _ in range(n_words):
         next_digit = np.argmax(model.predict(tokens, verbose=0))
