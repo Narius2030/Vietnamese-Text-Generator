@@ -1,9 +1,9 @@
-thoi-su: [
-    'https://vnexpress.net/thoi-su/chinh-tri',
-    'https://vnexpress.net/thoi-su/lao-dong-viec-lam',
-    'https://vnexpress.net/thoi-su/dan-sinh',
-    'https://vnexpress.net/thoi-su/giao-thong'
-]
+# thoi-su: [
+#     'https://vnexpress.net/thoi-su/chinh-tri',
+#     'https://vnexpress.net/thoi-su/lao-dong-viec-lam',
+#     'https://vnexpress.net/thoi-su/dan-sinh',
+#     'https://vnexpress.net/thoi-su/giao-thong'
+# ]
 
 doi-song: [
     'https://vnexpress.net/doi-song/to-am',
@@ -31,32 +31,32 @@ khoa-hoc: [
     'https://vnexpress.net/khoa-hoc/khoa-hoc-trong-nuoc'
 ]
 
-kinh-doanh: [
-    'https://vnexpress.net/kinh-doanh/quoc-te',
-    'https://vnexpress.net/kinh-doanh/doanh-nghiep',
-    'https://vnexpress.net/kinh-doanh/chung-khoan',
-    'https://vnexpress.net/kinh-doanh/bat-dong-san',
-    'https://vnexpress.net/kinh-doanh/ebank',
-    'https://vnexpress.net/kinh-doanh/vi-mo',
-    'https://vnexpress.net/kinh-doanh/tien-cua-toi',
-    'https://vnexpress.net/kinh-doanh/bao-hiem',
-    'https://vnexpress.net/kinh-doanh/hang-hoa'
-]
+# kinh-doanh: [
+#     'https://vnexpress.net/kinh-doanh/quoc-te',
+#     'https://vnexpress.net/kinh-doanh/doanh-nghiep',
+#     'https://vnexpress.net/kinh-doanh/chung-khoan',
+#     'https://vnexpress.net/kinh-doanh/bat-dong-san',
+#     'https://vnexpress.net/kinh-doanh/ebank',
+#     'https://vnexpress.net/kinh-doanh/vi-mo',
+#     'https://vnexpress.net/kinh-doanh/tien-cua-toi',
+#     'https://vnexpress.net/kinh-doanh/bao-hiem',
+#     'https://vnexpress.net/kinh-doanh/hang-hoa'
+# ]
 
-phap-luat: [
-    'https://vnexpress.net/phap-luat/ho-so-pha-an',
-    'https://vnexpress.net/phap-luat/tu-van'
-]
+# phap-luat: [
+#     'https://vnexpress.net/phap-luat/ho-so-pha-an',
+#     'https://vnexpress.net/phap-luat/tu-van'
+# ]
 
-suc-khoe: [
-    'https://vnexpress.net/suc-khoe/tin-tuc',
-    'https://vnexpress.net/suc-khoe/tu-van',
-    'https://vnexpress.net/suc-khoe/dinh-duong',
-    'https://vnexpress.net/suc-khoe/khoe-dep',
-    'https://vnexpress.net/suc-khoe/dan-ong',
-    'https://vnexpress.net/suc-khoe/cac-benh',
-    'https://vnexpress.net/suc-khoe/khang-khang-sinh'
-]
+# suc-khoe: [
+#     'https://vnexpress.net/suc-khoe/tin-tuc',
+#     'https://vnexpress.net/suc-khoe/tu-van',
+#     'https://vnexpress.net/suc-khoe/dinh-duong',
+#     'https://vnexpress.net/suc-khoe/khoe-dep',
+#     'https://vnexpress.net/suc-khoe/dan-ong',
+#     'https://vnexpress.net/suc-khoe/cac-benh',
+#     'https://vnexpress.net/suc-khoe/khang-khang-sinh'
+# ]
 
 the-thao: [
     'https://vnexpress.net/the-thao/du-lieu-bong-da',
