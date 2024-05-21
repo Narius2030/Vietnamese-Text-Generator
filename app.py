@@ -1,6 +1,6 @@
 import streamlit as st
 import plugins.text_generator as tg
-import plugins.text_similarity as ts
+import plugins.embedding as ts
 from tensorflow.keras.models import load_model
 from gensim.models import word2vec
 import pandas as pd
