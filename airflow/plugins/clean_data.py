@@ -1,17 +1,42 @@
 import pandas as pd
 import os
+import re
+import string
 from tqdm import tqdm
 from data_scrape.dtprocess import cleandt
 from pyvi import ViTokenizer
 
 ROOT_PATH = '/mnt/d/Programming/Vietnamese-Text-Generator/'
 
-def lower_case(x):
-    try:
-        x = x.lower()
-    except Exception as ex:
-        pass
-    return x
+def remove_punctuation(comment):
+    # Create a translation table
+    translator = str.maketrans('', '', string.punctuation)
+    # Remove punctuation
+    new_string = comment.translate(translator)
+    # Remove redudant space and break sign
+    new_string = re.sub('[\n ]+', ' ', new_string)
+    # Remove emoji icon
+    emoji_pattern = re.compile("["
+        u"\U0001F600-\U0001F64F"  # emoticons
+        u"\U0001F300-\U0001F5FF"  # symbols & pictographs
+        u"\U0001F680-\U0001F6FF"  # transport & map symbols
+        u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
+        u"\U00002500-\U00002BEF"  # chinese char
+        u"\U00002702-\U000027B0"
+        u"\U000024C2-\U0001F251"
+        u"\U0001f926-\U0001f937"
+        u"\U00010000-\U0010ffff"
+        u"\u2640-\u2642"
+        u"\u2600-\u2B55"
+        u"\u200d"
+        u"\u23cf"
+        u"\u23e9"
+        u"\u231a"
+        u"\ufe0f"  # dingbats
+        u"\u3030"
+                            "]+", flags=re.UNICODE)
+    new_string = re.sub(emoji_pattern, '', new_string)
+    return new_string
 
 def get_info(topic, processed_news):
     temp = processed_news[processed_news.topic == topic]
@@ -38,28 +63,20 @@ def transform_load():
 
     ## Select necessary columns
     processed_news = news[['article_id','content','topic','sub-topic','title','description']]
-    # print(processed_news.shape)
-    processed_news.head()
-
-    raw_news = processed_news.copy()
-
-    ## Lower characters
-    for col in processed_news.select_dtypes(include='object').columns:
-        processed_news[col] = processed_news[col].apply(lambda x: lower_case(x))
 
     ## Find null values and processing
     processed_news.fillna('', inplace=True)
     ## Merge columns into a single `tag` column
-    processed_news['tag'] = processed_news['content'] + processed_news['title'] + processed_news['description'] + processed_news['topic'] + processed_news['sub-topic']
+    processed_news['tag'] = processed_news['content'] + processed_news['title'] + processed_news['description']
     processed_news = processed_news.drop(columns=['content','description','title'])
 
     ## Tokenize the Vietnamese words
+    processed_news['tag'] = processed_news['tag'].apply(lambda x: x.lower())
+    processed_news['tag'] = processed_news['tag'].apply(lambda x: remove_punctuation(x))
     processed_news['tag'] = processed_news['tag'].apply(lambda x: ViTokenizer.tokenize(x))
-    processed_news['tag'] = processed_news['tag'].apply(lambda x: cleandt.remove_stopword(x, f'{ROOT_PATH}/data/vietnamese-stopwords.txt'))
     
     """Dump each tag to a text file
     """
-    raw_news.to_csv(f'{ROOT_PATH}/data/test/csv/vnexpress.csv')
     processed_news.to_csv(f'{ROOT_PATH}/data/test/csv/vnexpress_processed.csv')
     
     PROCESSED_FOLDER = f'{ROOT_PATH}/data/test/processed'

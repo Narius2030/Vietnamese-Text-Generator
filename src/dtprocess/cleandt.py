@@ -1,4 +1,6 @@
 import ast
+import re
+import string
 
 def stopwords_vi(stopword_path) -> list:
     # './src/vietnamese-stopwords.txt'
@@ -8,11 +10,15 @@ def stopwords_vi(stopword_path) -> list:
 
     return words
 
-def remove_stopword(text:str, stopword_path:str) -> str:
-  stop_words = stopwords_vi(stopword_path)
-  filtered = [word for word in text.split(' ') if word not in stop_words]
-
-  return ' '.join(filtered)
+def remove_stopword(text:str, stopword_path=None) -> str:
+    if stopword_path is not None:
+        stop_words = stopwords_vi(stopword_path)
+        filtered = [word for word in text.split(' ') if word not in stop_words]
+        result = ' '.join(filtered)
+    else:
+        return text
+    
+    return result
 
 def convert_dict(news:list, content) -> list:
     lst = []
@@ -51,5 +57,4 @@ def remove_punctuation(comment):
         u"\u3030"
                             "]+", flags=re.UNICODE)
     new_string = re.sub(emoji_pattern, '', new_string)
-
     return new_string
