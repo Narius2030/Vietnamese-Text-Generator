@@ -46,7 +46,7 @@ def transform_load():
     """Transform the raw data to usable text
     """
     ## Import data from raw folder to dataframe
-    CRAWL_FOLDER = f'{ROOT_PATH}/data/test/raw'
+    CRAWL_FOLDER = f'{ROOT_PATH}/data/scraped_data/raw'
     vnexpress = []
 
     for filename in os.listdir(CRAWL_FOLDER):
@@ -77,7 +77,7 @@ def transform_load():
     
     """Dump each tag to a text file
     """
-    processed_news.to_csv(f'{ROOT_PATH}/data/test/csv/vnexpress_processed.csv')
+    processed_news.to_csv(f'{ROOT_PATH}/data/scraped_data/csv/cleaned_vnexpress.csv')
     
     PROCESSED_FOLDER = f'{ROOT_PATH}/data/test/processed'
     for topic in tqdm(os.listdir(PROCESSED_FOLDER)):

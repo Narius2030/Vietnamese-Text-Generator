@@ -4,6 +4,7 @@ import os
 import json
 from src.crawler.utils import read_yaml
 from src.crawler.getlinks import get_links_from_subtopics, get_content_from_article
+from function.preprocessing import NormalizeTexts
  
 def scrape_news():
     topics_links = read_yaml('./src/crawler/links.yaml')
@@ -32,4 +33,11 @@ def scrape_news():
 
 
 if __name__ == '__main__':
+    # scrape news from vnepxress
     scrape_news()
+    
+    # clean text and save
+    normalizer = NormalizeTexts()
+    data = normalizer.load_data(path='./data/vnexpress/raw_news')
+    cleaned_data = normalizer.transform_texts(data)
+    normalizer.dump_files(path='.data/vnexpress')

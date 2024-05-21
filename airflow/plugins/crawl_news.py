@@ -7,10 +7,10 @@ from data_scrape.crawler.getlinks import get_links_from_subtopics, get_content_f
 
 def scrape_news():
     topics_links = read_yaml('/mnt/d/Programming/Vietnamese-Text-Generator/airflow/plugins/data_scrape/crawler/links.yaml')
-    topics_links = get_links_from_subtopics(topics_links)
+    topics_links = get_links_from_subtopics(topics_links, pages=3)
         
     # set output path
-    OUTPUT = '/mnt/d/Programming/Vietnamese-Text-Generator/data/test/raw'
+    OUTPUT = '/mnt/d/Programming/Vietnamese-Text-Generator/data/scraped_data/raw'
 
     print('\nCrawling...')
     for topic, links in topics_links.items():
