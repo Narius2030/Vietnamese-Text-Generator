@@ -36,11 +36,6 @@ def normalize_text(text, tokenizer, max_length):
     sequences_digit_padding = np.array(preprocessing.sequence.pad_sequences(sequences_digit, maxlen=max_length, padding='pre'))
     return sequences_digit_padding
 
-# def genarate_task(context):
-#     if task == "**Generate text**":
-#         result = generator.generate_sentences(context, n_words)
-#     return result
-
 def cluster_task(task, news, text):
     if task == "**Classify text**":
         temp = normalize_text(text=text, tokenizer=tokenizer, max_length=12731)
