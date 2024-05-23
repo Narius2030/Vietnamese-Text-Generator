@@ -15,8 +15,8 @@ class PatchEmbedding():
         self.stopword_path = stopword_path
     
     def sentence_embedding(self, sentence:str):
-        question_tokens = cleandt.remove_punctuation(sentence)
-        question_tokens = ViTokenizer.tokenize(question_tokens)
+        # question_tokens = cleandt.remove_punctuation(sentence)
+        question_tokens = ViTokenizer.tokenize(sentence)
         question_tokens = cleandt.remove_stopword(question_tokens, self.stopword_path)
         print('After tonkenized:', question_tokens)
 

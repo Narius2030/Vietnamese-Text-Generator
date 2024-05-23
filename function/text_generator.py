@@ -42,9 +42,9 @@ class TextGenerator():
                     break
         return top_words
 
-    def generate_sentences(self, context, n_words):
+    def generate_sentences(self, context, n_words:float):
         tokens = self.preprocess_input(context)
-        for _ in range(n_words):
+        for _ in range(int(n_words)):
             next_digit = np.argmax(self.model.predict(tokens, verbose=0))
             tokens = np.append(tokens, next_digit)
             tokens = np.delete(tokens, 0)
