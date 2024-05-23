@@ -6,7 +6,7 @@ from tqdm import tqdm
 from data_scrape.dtprocess import cleandt
 from pyvi import ViTokenizer
 
-ROOT_PATH = '/mnt/d/Programming/Vietnamese-Text-Generator/'
+ROOT_PATH = '/mnt/d/Programming/Vietnamese-Text-Generator'
 
 def remove_punctuation(comment):
     # Create a translation table
@@ -79,7 +79,7 @@ def transform_load():
     """
     processed_news.to_csv(f'{ROOT_PATH}/data/scraped_data/csv/cleaned_vnexpress.csv')
     
-    PROCESSED_FOLDER = f'{ROOT_PATH}/data/test/processed'
+    PROCESSED_FOLDER = f'{ROOT_PATH}/data/scraped_data/processed'
     for topic in tqdm(os.listdir(PROCESSED_FOLDER)):
         articles_ids, tags = get_info(topic, processed_news)
         # print(articles_ids)

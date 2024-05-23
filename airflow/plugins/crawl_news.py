@@ -27,7 +27,6 @@ def scrape_news():
                 if content is not None:
                     file.write(json.dumps(content))
                     file.write('\n')
-        break
         
     print('\nCompleted!')
 
