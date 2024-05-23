@@ -36,7 +36,7 @@ class NormalizeTexts():
         """
         processed_news.to_csv(f'{path}/csv/cleaned_vnexpress.csv')
         
-        PROCESSED_FOLDER = f'{self.ROOT_PATH}/processed_news'
+        PROCESSED_FOLDER = f'{path}/processed_news'
         for topic in tqdm(os.listdir(PROCESSED_FOLDER)):
             articles_ids, tags = self.get_info(topic, processed_news)
             # print(articles_ids)
@@ -48,7 +48,7 @@ class NormalizeTexts():
         """Transform the raw data to usable text
         """
         ## Select necessary columns
-        processed_news = data[['article_id','content','topic','sub-topic','title','description']]
+        processed_news = data[['article_id','content','topic','sub-topic','title','description','url']]
 
         ## Find null values and processing
         processed_news.fillna('', inplace=True)

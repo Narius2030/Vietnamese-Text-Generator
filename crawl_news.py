@@ -34,10 +34,10 @@ def scrape_news():
 
 if __name__ == '__main__':
     # scrape news from vnepxress
-    scrape_news()
+    # scrape_news()
     
     # clean text and save
     normalizer = NormalizeTexts()
     data = normalizer.load_data(path='./data/vnexpress/raw_news')
     cleaned_data = normalizer.transform_texts(data)
-    normalizer.dump_files(path='.data/vnexpress')
+    normalizer.dump_files(cleaned_data, path='./data/vnexpress')
