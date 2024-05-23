@@ -60,7 +60,7 @@ class TextGenerator():
                     break
         return ' '.join(out_word)
     
-    def generate_possible_sentences(self, context:str, top_n:int, n_words:int):
+    def generate_possible_sentences(self, context:str, top_n=3, n_words=20):
         top_words = self.top_n_words(context, top_n=top_n)
         # Với mỗi từ trong top_words, tạo ra một câu và lưu vào danh sách generated_sentences
         generated_sentences = []
@@ -71,4 +71,5 @@ class TextGenerator():
 
         # In ra các câu đã được tạo ra
         for i, sentence in enumerate(generated_sentences, start=1):
-            print("Generated sentence", i, ":", sentence)
+            print("Generated sentence", i, ":", sentence)  
+        return generated_sentences

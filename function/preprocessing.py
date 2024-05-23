@@ -54,7 +54,7 @@ class NormalizeTexts():
         processed_news.fillna('', inplace=True)
         ## Merge columns into a single `tag` column
         processed_news['tag'] = processed_news['content'] + processed_news['title'] + processed_news['description']
-        processed_news = processed_news.drop(columns=['content','description','title'])
+        processed_news = processed_news.drop(columns=['content','description'])
 
         ## Tokenize the Vietnamese words
         processed_news['tag'] = processed_news['tag'].apply(lambda x: x.lower())
