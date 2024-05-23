@@ -36,10 +36,10 @@ def normalize_text(text, tokenizer, max_length):
     sequences_digit_padding = np.array(preprocessing.sequence.pad_sequences(sequences_digit, maxlen=max_length, padding='pre'))
     return sequences_digit_padding
 
-def genarate_task(context):
-    if task == "**Generate text**":
-        result = generator.generate_sentences(context, n_words)
-    return result
+# def genarate_task(context):
+#     if task == "**Generate text**":
+#         result = generator.generate_sentences(context, n_words)
+#     return result
 
 def cluster_task(task, news, text):
     if task == "**Classify text**":
@@ -49,7 +49,8 @@ def cluster_task(task, news, text):
         label_encoder = LabelEncoder()
         label_encoder.fit(news['topic'])
         topic_class = label_encoder.inverse_transform([np.argmax(prediction[0])])
-        st.text(topic_class)
+        # st.text(topic_class)
+        return topic_class
 
     elif task == "**Search similar papers**":
         input_gensim = create_input_gensim(news)
@@ -67,33 +68,36 @@ def cluster_task(task, news, text):
         mean_post_embedding = mvectorize.mean_posts_embedding(post_embeddings)
         similarity_score = mvectorize.text_cosine_similarity(mean_sentence_embedding, mean_post_embedding)
         similar_news = mvectorize.find_similarity(similarity_score, news)
-        st.dataframe(similar_news)
+        # st.dataframe(similar_news)
+        return similar_news
 
 # global variables
-task = ""
+cluster_result, task = None, ""
 
 # GUI
 st.set_page_config(layout="wide")
-st.header("Text generator and classification")
+st.title("Text generator and classification")
+
+context = st.text_input("Context sentence", placeholder="Việt Nam")
+n_words = st.number_input("Lenght of sentence", value=None, placeholder="Type a number...")
+try:
+    result = generator.generate_sentences(context, n_words)
+    text = st.text_area("Generated text", result)
+except Exception as ex:
+    print(str(ex))
+
+# Side bar
 with st.sidebar:
     st.title("Select a task")
     
     task = st.radio(
         "What would you like to do?",
-        ["**Generate text**", "**Classify text**", "**Search similar papers**"],
+        ["**Classify text**", "**Search similar papers**"],
         captions = ["Laugh out loud.", "Get the popcorn.", "Never stop learning."])
-
-context = st.text_input("Context sentence", placeholder="Việt Nam")
-n_words = st.number_input("Lenght of sentence", value=None, placeholder="Type a number...")
-
-# text = ""
-global text
-text = ""
-if task == "**Generate text**":
-    result = genarate_task(context)
-    text = st.text_area("Generated text", result)
     
-if task != "**Generate text**":
-    ## Clustering or Classify
-    cluster_task(task, news, text)
+    if st.button("Run task"):
+        cluster_result = cluster_task(task, news, text)
+        
+st.header("Result")
+st.write(cluster_result)
         
