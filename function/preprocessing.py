@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 from tqdm import tqdm
+import string
 from pyvi import ViTokenizer
 import sys
 sys.path.append("./src/dtprocess")
@@ -14,6 +15,15 @@ class NormalizeTexts():
     def get_info(self, topic, processed_news):
         temp = processed_news[processed_news.topic == topic]
         return temp['article_id'].to_list(), temp['tag'].to_list()
+    
+    def normalize_text(self, doc):
+        doc = ViTokenizer.tokenize(doc) #Pyvi Vitokenizer library
+        doc = doc.lower() #Lower
+        tokens = doc.split() #Split in_to words
+        table = str.maketrans('', '', string.punctuation.replace("_", "")) #Remove all punctuation
+        tokens = [w.translate(table) for w in tokens]
+        tokens = [word for word in tokens if word]
+        return tokens
     
     def load_data(self, path):
         ## Import data from raw folder to dataframe
