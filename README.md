@@ -53,6 +53,24 @@ Non-trainable params: 300 (1.17 KB)
 _______________________________________
 ```
 
+### Generated Text Sample
+- The highest probability sentence
+```python
+text = generator.generate_sentences('cầu_thủ cầm vại bia lớn dội vào hlv và cầu_thủ khác', 20)
+
+### result: cầu_thủ cầm vại bia lớn dội vào hlv và cầu_thủ khác là hành_động ăn_mừng thường thấy sau khi giành bundesliga tối 144 nếu thắng werder bremen trên sân_nhà leverkusen sẽ đủ
+```
+
+- Top 3 highest probability sentences
+```python
+text_input = "cầu_thủ cầm vại bia lớn dội vào hlv và cầu_thủ khác"
+generator.generate_possible_sentences(text_input, top_n=3, n_words=20)
+
+### result: ['cầu_thủ cầm vại bia lớn dội vào hlv và cầu_thủ khác đã chơi giúp họ giành danh_hiệu atp ở anfield nhất tại world_cup qua anh từng giành nhiều danh_hiệu tập_thể lớn cũng',
+ 'cầu_thủ cầm vại bia lớn dội vào hlv và cầu_thủ khác có_thể thắng sẽ luôn được từng kéo_dài nhiều hơn alonso từng có alonso có_thể lập lại bundesliga leverkusen đang kém bayer',
+ 'cầu_thủ cầm vại bia lớn dội vào hlv và cầu_thủ khác là hành_động ăn_mừng thường thấy sau khi giành bundesliga tối 144 nếu thắng werder bremen trên sân_nhà leverkusen sẽ đủ điểm']
+```
+
 ### Data Scraping
 ```python
 def scrape_news():
